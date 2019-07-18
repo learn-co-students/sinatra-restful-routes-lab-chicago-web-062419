@@ -17,5 +17,8 @@ group :test do
   gem 'pry-nav'
   gem 'capybara'
   gem 'rack-test'
-  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
+  gem 'database_cleaner', '~> 1.7'
 end
+
+
+# , git: 'https://github.com/bmabey/database_cleaner.git'
